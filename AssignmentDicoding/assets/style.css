@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.jumbotron p {
+    color:grey;
+}
+
+th {
+    text-align: left;
+}
+
+header {
+    display: inline;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 60px;
+    background-color: #CEE5D0;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #94B49F;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    font-family: 'Source Serif Pro', Georgia;
+    line-height: 26px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+a {
+    font-weight: 400;
+    text-decoration:underline;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h2, h3 {
+   font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    color: black;
+    background-color: #CEE5D0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-images {
+    text-align: center;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profil img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
